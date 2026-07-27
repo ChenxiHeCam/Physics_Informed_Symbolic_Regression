@@ -1,0 +1,26 @@
+{
+  "title": "PISR: A Search-Free Foundation Model for Symbolic Regression of Physical Laws — code, model weights, and data",
+  "upload_type": "software",
+  "creators": [
+    { "name": "He, Chenxi", "affiliation": "Cavendish Laboratory, University of Cambridge", "orcid": "" },
+    { "name": "Chen, Jingqiu", "affiliation": "College of Physics and Optoelectronic Engineering, Shenzhen University", "orcid": "" }
+  ],
+  "description": "Source code, pre-trained model weights, benchmark task sets, per-task baseline outputs, case-study data, and figure-generation scripts for PISR, a search-free foundation model for symbolic regression that recasts the problem as generation within a pre-trained, contrastively-aligned formula-data manifold. PISR reaches state-of-the-art structural accuracy on an audited real-physics benchmark (797 laws), the Feynman equations, and a cross-domain generalization set, at matched compute and roughly 2.4x faster than search, and uniquely recovers named laws from raw turbulence, astronomy and epidemic data. This record accompanies the paper of the same name (He & Chen).",
+  "keywords": [
+    "symbolic regression",
+    "foundation model",
+    "flow matching",
+    "contrastive learning",
+    "physics",
+    "scientific discovery",
+    "machine learning",
+    "representation learning"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "language": "eng",
+  "related_identifiers": [
+    { "relation": "isSupplementTo", "identifier": "10.XXXX/PAPER-DOI-ON-ACCEPTANCE", "scheme": "doi" }
+  ],
+  "notes": "Data (benchmarks/, baseline_outputs/, case_studies/) and model weights (weights/) are released under CC-BY-4.0; source code under MIT. The 33.6M-expression training corpus is too large for a single record and is available from the authors on request."
+}
